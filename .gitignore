@@ -1,0 +1,6 @@
+**/node_modules
+wp-content/a1wm-backups
+wp-content/aiowps_backups
+wp-content/uploads
+!wp-content/uploads/elementor
+wp-config.php
