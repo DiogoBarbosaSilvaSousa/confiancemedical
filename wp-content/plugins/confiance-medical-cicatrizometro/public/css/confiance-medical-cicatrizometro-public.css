@@ -1,0 +1,77 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ #cicatrizometro-quilometragem {
+     font-family: "Montserrat", Sans-serif;
+     font-size: 3rem;
+     font-weight: 900;
+     color: #1c2c4e;
+     text-align: center;
+ }
+
+ #cicatrizometro-quilometragem .texto-pequeno{
+    font-size: 2rem;
+    font-weight: 800;
+ }
+
+
+@media (max-width: 768px) {
+    #cicatrizometro #cicatrizometro-rodape {
+        background-color: #336c87;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    #cicatrizometro #cicatrizometro-cabecalho .titulo h2{
+        color: #fff !important;
+    }
+
+    #cicatrizometro #cicatrizometro-cabecalho .texto{
+        color: #fff;
+    }
+
+    #cicatrizometro-quilometragem {
+        font-size: 2.0625rem;
+    }
+
+    #cicatrizometro-quilometragem .texto-pequeno{
+        font-size: 1.25rem;
+     }
+}
+
+@media (max-width: 425.98px) { 
+    #cicatrizometro-quilometragem {
+        margin: 8rem 0 0 0;
+    }
+}
+
+@media (max-width: 415.98px) { 
+    #cicatrizometro-quilometragem {
+        margin: 7.8rem 0 0 0;
+    }
+}
+
+@media (max-width: 375.98px) { 
+    #cicatrizometro-quilometragem {
+        margin: 4.25rem 0 0 0;
+    }
+}
+
+@media (max-width: 365.98px) { 
+    #cicatrizometro-quilometragem {
+        margin: 3.25rem 0 0 0;
+    }
+}
+
+@media (max-width: 325.98px) { 
+
+    #cicatrizometro-quilometragem {
+        font-size: 1.75rem;
+    }
+
+    #cicatrizometro-conteudo {
+        padding: 3rem 0rem 5rem 0rem;
+    }
+}

@@ -1,0 +1,43 @@
+#aviso {
+    margin-bottom: 6rem;
+}
+
+#aviso .quadro {
+    padding: 0 4.5rem;
+    margin-top: -9rem;
+}
+
+#aviso .quadro .linha {
+    background-color: #326c87;
+    padding-bottom: 1rem;
+}
+
+#aviso .quadro .linha .info-icone {
+    text-align: right;
+    color: #f69747;
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+
+#aviso .quadro .linha .info-texto {
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 1.125rem;
+    padding-right: 1rem;
+}
+
+#aviso .fundo-cor {
+    background-color: #326c87;
+}
+
+@media (max-width: 576px) { 
+
+    #aviso .quadro {
+        padding: 0 1rem;
+    }
+
+    #aviso .quadro .linha .info-icone {
+      padding-right: 1.65rem;
+    }
+
+}

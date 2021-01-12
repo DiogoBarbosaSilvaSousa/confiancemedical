@@ -1,0 +1,486 @@
+#orcamento {
+    background-color: #00c5d4;
+    padding: 0 0 12rem 0;
+}
+
+#orcamento .oculta {
+    display: none;
+}
+
+#orcamento .marcador {
+    text-align: center;
+    padding: 0 0 3rem ;
+}
+
+#orcamento .formulario {
+    max-width: 1115px;
+    margin: 0 auto;
+    padding: 1rem 0 0 0.75rem;
+}
+
+#orcamento .formulario .compra {
+    margin-top: 0.4rem;
+    width: 18px;
+    height: 18px;
+}
+
+#orcamento .formulario .locacao {
+    margin-top: 0.4rem;
+    width: 18px;
+    height: 18px;
+}
+
+#orcamento .formulario label {
+    color: #1c2c4e;
+}
+
+#orcamento .formulario .form-check-label {
+    margin-left: 0.5rem;
+    color: #1c2c4e;
+    font-family: "Lato", sans-serif;
+}
+
+#orcamento .formulario .form-check-input {
+    width: 18px;
+    height: 18px;
+}
+
+#orcamento .etapas {
+    text-align: center;
+}
+
+#orcamento .etapa-instituicao {
+     padding: 0 0 0 0;
+}
+
+#orcamento .etapa-localizacao {
+    padding: 0 0 0 0;
+}
+
+#orcamento .etapa-interesse {
+    padding: 0 0 0 0;
+}
+
+#orcamento .etapa-contato {
+    padding: 0 0 0 0;
+}
+
+#orcamento .titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.25rem;
+    padding: 1rem 0 1rem 0;
+    color: #1c2c4e;
+}
+
+#orcamento .espacamento {
+    padding: 0 1rem 0 1rem;
+}
+
+#orcamento .etapa-instituicao .linha-lateral {
+    border-right: 2px solid #ffffff3b;
+}
+
+#orcamento .etapa-localizacao .linha-lateral {
+    border-right: 2px solid #ffffff3b;
+    max-height: 302px;
+    height: 100%;
+}
+
+#orcamento .etapa-interesse .linha-lateral {
+    border-right: 2px solid #ffffff3b;
+    padding: 0 1rem 0 1rem;
+    max-height: 464px;
+    height: 100%;
+}
+
+#orcamento .btnVoltarInteresse {
+    background-color: #326c87;
+    margin: 0 1rem 0 0;
+}
+
+.orcamento.sistema .tamanho-maximo {
+    max-width: 540px;
+}
+
+.orcamento.sistema .titulo-agradecimento {
+    font-size: 1.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1c2c4e;
+}
+
+.orcamento.sistema .texto .titulo-sistema {
+    color: #f69747;
+    padding: 1rem 0 1rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+
+.orcamento.sistema .texto .destaque {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1c2c4e;
+}
+
+.orcamento.sistema .texto .destaque.consultor {
+    padding: 1rem 0 1rem 0;
+}
+
+.orcamento.sistema .texto .linha-destaque {
+    border-bottom: 2.5px solid #f69747;
+}
+
+.orcamento.sistema .texto .ajuda {
+
+    color: #326c87;
+    margin: 0 0 0 0;
+    padding: 1rem 0 1rem 0;
+
+}
+
+.orcamento.sistema .texto .auxiliar {
+
+    color: #326c87;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: "Lato", sans-serif;
+
+}
+.orcamento.sistema .texto .auxiliar .icone {
+   color: #f69747;
+   font-size: 1.25rem;
+}
+
+.orcamento.sistema .texto .auxiliar .texto {
+    padding: 0 0 0 1rem;
+    font-size: 1.25rem;
+}
+
+.orcamento.sistema .texto .monitor {
+    padding: 0 0 0 0;
+}
+
+.orcamento.sistema .texto .insuflador {
+    padding: 0 0 0 0;
+}
+
+.orcamento.sistema .texto .camera {
+    padding: 0 0 0 0;
+}
+
+.orcamento.sistema .texto .luz {
+    padding: 0 0 0 0;
+}
+
+.orcamento.sistema .texto .gravador {
+    padding: 0 0 0 0;
+}
+
+.orcamento.sistema .texto .acessorios {
+
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 0 1rem 0;
+    text-transform: uppercase;
+    color: #1c2c4e;
+
+}
+
+.orcamento-icone-fechar {
+    color: #f00;
+    font-size: 2.5rem !important;
+    margin: 1rem 1rem 0 0;
+}
+
+
+.orcamento.sistema .posicao-1 .logo-fundo {
+    z-index: 1;
+    max-width: 540px;
+    position: absolute;
+}
+
+
+
+.orcamento.sistema .posicao-1 {
+    z-index: 1;
+    max-width: 540px;
+    position: absolute;
+}
+
+.orcamento.sistema .posicao-2 {
+    text-align: center;
+    z-index: 2;
+    max-width: 540px;
+    position: absolute;
+}
+
+.orcamento.sistema .posicao-3 {
+    text-align: center;
+    z-index: 3;
+    width: 540px;
+    max-width: 540px;
+    position: absolute;
+}
+
+.orcamento.sistema .posicao-4 {
+    text-align: center;
+    z-index: 3;
+    width: 540px;
+    max-width: 540px;
+    position: absolute;
+    top: 232px;
+}
+
+.orcamento.sistema .posicao-5 {
+    text-align: center;
+    z-index: 3;
+    width: 540px;
+    max-width: 540px;
+    position: absolute;
+    top: 276px;
+}
+
+.orcamento.sistema .posicao-6 {
+    text-align: center;
+    z-index: 3;
+    width: 540px;
+    max-width: 540px;
+    position: absolute;
+    top: 334px;
+}
+
+.orcamento.sistema .posicao-7 {
+    text-align: center;
+    z-index: 3;
+    width: 540px;
+    max-width: 540px;
+    position: absolute;
+    top: 400px;
+}
+
+#orcamento .form-group {
+    margin-bottom: 0.5rem;
+}
+
+/*** Início de personalização do checkbox ***/
+
+#orcamento .item-especialidade .texto{
+    margin-top: 0.25rem;
+    color: #1c2c4e;
+    font-family: "Lato", sans-serif;
+    width: 175px;
+}
+
+#orcamento .item-procedimento .texto{
+    margin-top: 0.25rem;
+    color: #1c2c4e;
+    font-family: "Lato", sans-serif;
+    width: 208px;
+}
+
+#orcamento .checkbox label:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#orcamento .checkbox .cr {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #1c2c4e;
+    /*! border-radius: .25em; */
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+    background-color: #fff;
+}
+
+#orcamento .checkbox .cr .cr-icon{
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 18%;
+}
+
+#orcamento .checkbox label input[type="checkbox"]{
+    display: none;
+}
+
+#orcamento .checkbox label input[type="checkbox"] + .cr > .cr-icon{
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+#orcamento .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon{
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+#orcamento .checkbox label input[type="checkbox"]:disabled + .cr{
+    opacity: .5;
+}
+
+/*** Fim de personalização do checkbox ***/
+
+
+/*** Início de personalização do radio ***/
+
+#orcamento .item-especialidade .texto{
+    margin-top: 0.25rem;
+    color: #1c2c4e;
+    font-family: "Lato", sans-serif;
+    width: 175px;
+}
+
+#orcamento .item-procedimento .texto{
+    margin-top: 0.25rem;
+    color: #1c2c4e;
+    font-family: "Lato", sans-serif;
+    width: 208px;
+}
+
+#orcamento .radio label:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#orcamento .radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #1c2c4e;
+    border-radius: 1em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+    background-color: #fff;
+}
+
+#orcamento .radio .cr .cr-icon{
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 18%;
+}
+
+#orcamento .radio label input[type="radio"]{
+    display: none;
+}
+
+#orcamento .radio label input[type="radio"] + .cr > .cr-icon{
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+#orcamento .radio label input[type="radio"]:checked + .cr > .cr-icon{
+    transform: scale(0.7) rotateZ(0deg);
+    opacity: 1;
+}
+
+#orcamento .radio label input[type="radio"]:disabled + .cr{
+    opacity: .5;
+}
+
+/*** Fim de personalização do radio ***/
+
+
+@media (min-width: 575.98px) { 
+
+
+}
+
+@media (max-width: 575.98px) { 
+
+    #orcamento .titulo {
+
+        font-size: 2rem;
+        padding: 1rem 0 1rem 0;
+
+    }
+
+    #orcamento .oculta_etapa {
+        display: none;
+    }
+
+
+    .orcamento.sistema .posicao-1 .logo-fundo {
+        z-index: 1;
+        max-width: 312px;
+        position: absolute;
+    }
+    
+
+
+    .orcamento.sistema .posicao-1 {
+        z-index: 1;
+        max-width: 425px;
+        position: absolute;
+    }
+    
+    .orcamento.sistema .posicao-2 {
+        text-align: center;
+        z-index: 2;
+        max-width: 425px;
+        position: absolute;
+        left: -114px;
+    }
+    
+    .orcamento.sistema .posicao-3 {
+        text-align: center;
+        z-index: 3;
+        width: 315px;
+        max-width: 540px;
+        position: absolute;
+    }
+    
+    .orcamento.sistema .posicao-4 {
+        text-align: center;
+        z-index: 3;
+        width: 315px;
+        max-width: 540px;
+        position: absolute;
+        top: 232px;
+    }
+    
+    .orcamento.sistema .posicao-5 {
+        text-align: center;
+        z-index: 3;
+        width: 315px;
+        max-width: 540px;
+        position: absolute;
+        top: 276px;
+    }
+    
+    .orcamento.sistema .posicao-6 {
+        text-align: center;
+        z-index: 3;
+        width: 315px;
+        max-width: 540px;
+        position: absolute;
+        top: 334px;
+    }
+    
+    .orcamento.sistema .posicao-7 {
+        text-align: center;
+        z-index: 3;
+        width: 315px;
+        max-width: 540px;
+        position: absolute;
+        top: 400px;
+    }
+
+
+    .orcamento.sistema .posicao-3 .tamanho-maximo {
+        max-width: 300px;
+    }
+
+}

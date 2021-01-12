@@ -1,0 +1,24 @@
+.oculta {
+    display: none;
+}
+
+.oculta_desktop {
+    display: none;
+}
+
+div[role=presentation] {
+    background-color: rgb(4 112 255 / 0.5);
+}
+
+
+@media (max-width: 575.98px) { 
+
+    .oculta_mobile {
+        display: none;
+    }
+
+    .oculta_desktop {
+        display: block;
+    }
+
+}

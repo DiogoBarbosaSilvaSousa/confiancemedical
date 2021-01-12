@@ -1,0 +1,174 @@
+//Arquivo _sass-comandos-basicos.scss
+
+/*******************************/
+/* encadeamento e concatenação */
+/*******************************/
+
+body {
+
+    color:#000;
+
+    div {
+         width:100%;
+
+         h1 {
+             color:#f00;
+         }
+    }
+
+    h1 {
+       color:#00f;
+    }
+
+    a {
+       color:#0f0;
+
+       &:hover {
+            color:#f00;
+       }
+
+       &.active {
+            color:orange;  
+       }
+
+       img {
+            border: 1px solid #000;            
+       } 
+
+    }
+
+    .titulo {
+           &_vermelho {
+                 color:red;
+           }
+
+           &_azul {
+              color:azul;
+          } 
+
+          &_green {
+             color:red;
+          }      
+    }
+}
+
+/***************/
+/* placeholder */
+/***************/
+
+%estilo-da-fonte {
+    color: #f00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+body {
+
+    @extend %estilo-da-fonte;
+
+    div {
+         width:100%;
+
+         h1 {
+            @extend %estilo-da-fonte;
+         }
+    }
+
+    h1 {
+        @extend %estilo-da-fonte;
+    }
+
+    a {
+        @extend %estilo-da-fonte;
+
+       &:hover {
+        @extend %estilo-da-fonte;
+       }
+
+       &.active {
+        @extend %estilo-da-fonte;  
+       }
+
+    }
+
+    .titulo {
+           &_vermelho {
+            @extend %estilo-da-fonte;
+           }
+
+           &_azul {
+            @extend %estilo-da-fonte;
+            //sobrescrevo a cor enquanto aproveito as outra propriedades do meu placeholder
+            color:blue;
+          } 
+
+          &_green {
+            @extend %estilo-da-fonte;
+            //sobrescrevo a cor enquanto aproveito as outra propriedades do meu placeholder
+            color:green;
+          }      
+    }
+}
+
+/*********/
+/* mixin */
+/*********/
+@mixin estilo-da-fonte($cor:#f00,$tipo:"'Courier New', Courier, monospace",$tamanho:22px,$peso:bold) {
+    color: $cor;
+    font-family: $tipo;
+    font-size: $tamanho;
+    font-weight: $peso;
+}
+
+
+body {
+     
+    @include estilo-da-fonte;
+   
+    div {
+         width:100%;
+
+         h1 {
+            @include estilo-da-fonte;
+         }
+    }
+
+    h1 {
+        @include estilo-da-fonte;
+    }
+
+    a {
+        @include estilo-da-fonte;
+
+       &:hover {
+        @include estilo-da-fonte;
+       }
+       
+       &.active {
+        @include estilo-da-fonte;  
+       }
+       
+    }
+
+    .titulo {
+           &_vermelho {
+            @include estilo-da-fonte;
+           }
+           
+           &_azul {
+
+            //troco todos os atributos
+            @include estilo-da-fonte(blue,Arial,10px,normal);          
+           
+          } 
+
+          &_green {
+            //troco a cor da fonte e o peso dela reparem que se souber o nome do parâmetro você pode chamá-lo 
+            //fora de ordem ou somente chamar o parâmetro que você deseja alterar isso facilita quando o parâmetro 
+            //que você quer alterar é um dos últimos ou está bem no meio da função.
+            @include estilo-da-fonte($peso:normal,$cor:green);
+            
+          }      
+    }
+}

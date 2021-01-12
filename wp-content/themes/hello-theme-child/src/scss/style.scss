@@ -1,0 +1,21 @@
+/**
+ * Nenhum CSS 'personalizado' deve ser adicionado aqui pois este arquivo é compilado caso haja necessidade de instalar qualquer CSS a 'mão'
+ * adicione em 'style-custom.css' na raíz do tema hello-theme-child
+ */
+
+@import "helpers/variables";
+@import "helpers/mixins";
+@import "helpers/placeholders";
+
+@import "base/reset";
+@import "base/fonts";
+@import "base/base";
+
+@import "layout/header";
+@import "layout/menu";
+@import "layout/footer";
+@import "layout/mobile";
+@import "layout/tablet";
+@import "layout/desktop";
+
+@import "pages/home";

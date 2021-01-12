@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+ * Nenhum CSS 'personalizado' deve ser adicionado aqui pois este arquivo é compilado caso haja necessidade de instalar qualquer CSS a 'mão'
+ * adicione em 'style-custom.css' na raíz do tema hello-theme-child
+ */
+/* Arquivo _variables.scss */
+/* Arquivo _mixins.scss */
+/* Arquivo _placeholders.scss */
+/* Arquivo _reset.scss */
+/* Arquivo _fonts.scss */
+/* Arquivo _base.scss */
+/* Arquivo _header.scss */
+/* Arquivo _menu.scss */
+/* Arquivo _footer.scss */
+/* Arquivo _mobile.scss */
+@media (max-width: 575.98px) {
+  .home .sonho-grande {
+    background-color: #63c3d0;
+  }
+  #sac .elementor-icon-box-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  #sac .elementor-icon-box-wrapper .elementor-icon-box-icon {
+    width: 63%;
+    text-align: right;
+  }
+  #sac .elementor-icon-box-wrapper .elementor-icon-box-content {
+    width: 36%;
+  }
+}
+
+/* Arquivo _tablet.scss */
+@media (max-width: 767.98px) {
+  footer .rodape .menu-equipamentos li a.hfe-menu-item {
+    justify-content: center;
+  }
+}
+
+/* Arquivo _desktop.scss */
+@media (max-width: 1199.98px) {
+  footer .rodape {
+    background-color: #dddddd;
+  }
+}
+
+/* Arquivo _home.scss */

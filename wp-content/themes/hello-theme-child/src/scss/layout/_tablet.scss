@@ -1,0 +1,23 @@
+/* Arquivo _tablet.scss */
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+    footer {
+        .rodape {
+            .menu-equipamentos {
+                li {
+                    a {
+                        &.hfe-menu-item{
+                            justify-content: center;
+                        }                        
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {  }

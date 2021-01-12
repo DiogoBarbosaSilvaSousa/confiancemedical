@@ -1,0 +1,34 @@
+/* Arquivo _mobile.scss */
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+
+    .home {
+
+        .sonho-grande {
+            background-color: #63c3d0;
+        }
+
+    }
+
+    #sac {
+        .elementor-icon-box-wrapper {
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px 0 10px 0;
+
+            .elementor-icon-box-icon {
+                width: 63%;
+                text-align: right;
+            }
+
+            .elementor-icon-box-content {
+                width: 36%;
+            }
+        }
+    }
+
+ }

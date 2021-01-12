@@ -1,0 +1,237 @@
+#pre-configuracao {
+    background-color: #00c5d4;
+    /*background-image: url(http://dev.confiancemedical.com.br/wp-content/plugins/confiance-medical-monte-o-seu/public/images/fundo_pre_configuracao_v3.png);*/
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#pre-configuracao .botao {
+    width: 90%;
+    margin: 1rem 0 1rem 0;
+    padding: 0.3rem 0 0.3rem 0;
+    font-size: 1.5rem;
+}
+
+#pre-configuracao .titulo {
+    font-weight: bold;
+    font-size: 2.25rem;
+    padding: 3rem 0 1rem 0;
+    color: #1c2c4e;
+}
+
+#pre-configuracao .subtitulo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #1c2c4e;
+}
+
+#pre-configuracao .subtexto {
+    padding: 0 0 1.5rem 0;
+    color: #1c2c4e;
+    font-family: "Lato", sans-serif;
+}
+
+#pre-configuracao .configuracao .form-check-input {
+    width: 18px;
+    height: 18px;
+}
+
+
+#pre-configuracao .configuracao .form-check-label {
+    margin-left: 0.5rem;
+    color: #1c2c4e;
+    font-family: "Lato", sans-serif;
+}
+
+/*#pre-configuracao .item-especialidade {
+    height: 30px;
+}
+
+#pre-configuracao .item-procedimento {
+    height: 30px;
+}*/
+
+
+
+/*** Início de personalização do checkbox ***/
+
+#pre-configuracao .item-especialidade .texto{
+    margin-top: 0.25rem;
+    color: #1c2c4e;
+    font-family: "Lato", sans-serif;
+    width: 175px;
+}
+
+#pre-configuracao .item-procedimento .texto{
+    margin-top: 0.25rem;
+    color: #1c2c4e;
+    font-family: "Lato", sans-serif;
+    width: 208px;
+}
+
+#pre-configuracao .checkbox label:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#pre-configuracao .checkbox .cr {
+    position: relative;
+    display: inline-block;
+    border: 2px solid #1c2c4e;
+    /*! border-radius: .25em; */
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+#pre-configuracao .checkbox .cr .cr-icon{
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 18%;
+}
+
+#pre-configuracao .checkbox label input[type="checkbox"]{
+    display: none;
+}
+
+#pre-configuracao .checkbox label input[type="checkbox"] + .cr > .cr-icon{
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+#pre-configuracao .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon{
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+#pre-configuracao .checkbox label input[type="checkbox"]:disabled + .cr{
+    opacity: .5;
+}
+
+/*** Fim de personalização do checkbox ***/
+
+@media (max-width: 575.98px) { 
+
+    #pre-configuracao {
+        background-image: none !important;
+    }
+
+    #pre-configuracao .titulo {
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 3rem 0 1rem 0;
+    }
+
+    #pre-configuracao .subtitulo {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    #pre-configuracao .subtexto {
+        font-size: 0.85rem;
+    }
+
+    #pre-configuracao .item-procedimento .texto {
+        width: 200px;
+    }
+
+
+} /* @media (max-width: 575.98px) */
+
+@media (max-width: 375.98px) { 
+
+    #pre-configuracao .titulo {
+        font-weight: bold;
+        font-size: 1.85rem;
+        padding: 3rem 0 1rem 0;
+    }
+
+    #pre-configuracao .subtitulo {
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    #pre-configuracao .botao {
+        width: 90%;
+        margin: 1rem 0 1rem 0;
+        padding: 0.3rem 0 0.3rem 0;
+        font-size: 1.25rem;
+    }
+
+    #pre-configuracao .item-procedimento .texto {
+        width: 180px;
+    }
+
+} /* @media (max-width: 375.98px) */
+
+
+@media (max-width: 365.98px) { 
+
+    #pre-configuracao .titulo {
+        font-weight: bold;
+        font-size: 1.75rem;
+        padding: 3rem 0 1rem 0;
+    }
+
+    #pre-configuracao .subtexto {
+        font-size: 0.75rem;
+    }
+
+    #monte .texto-auxiliar-posicao-1 {
+        z-index: 4;
+        max-width: 650px;
+        position: absolute;
+        top: -60px;
+        right: 0px;
+        width: 349px;
+    }
+
+    #monte .texto-auxiliar-posicao-2 {
+        z-Index: 4;
+        max-width: 650px;
+        position: absolute;
+        top: -15px;
+        right: -51px;
+        width: 400px;
+    }
+
+} /* @media (max-width: 365.98px) */
+
+
+@media (max-width: 325.98px) { 
+
+    #pre-configuracao .titulo {
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding: 3rem 0 1rem 0;
+    }
+
+    #pre-configuracao .subtitulo {
+        font-weight: bold;
+        font-size: 0.9rem;
+    }
+
+    #pre-configuracao .botao {
+        width: 90%;
+        margin: 1rem 0 1rem 0;
+        padding: 0.3rem 0 0.3rem 0;
+        font-size: 1.1rem;
+    }
+
+    #monte .texto-auxiliar-posicao-8 {
+        z-index: 2;
+        max-width: 420px;
+        position: absolute;
+        top: 520px;
+        width: 318px;
+        right: -6px;
+    }
+
+
+} /* @media (max-width: 325.98px) */

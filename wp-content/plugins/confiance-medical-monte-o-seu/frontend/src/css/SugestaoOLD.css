@@ -1,0 +1,389 @@
+#sugestao .conteudo {
+    padding: 3rem 0 3rem 0;
+}
+
+#sugestao .sistema .imagem {
+    text-align: right;
+}
+
+#sugestao .sistema .texto {
+    padding: 0;
+}
+
+#sugestao .sistema .texto .titulo-sistema {
+    color: #f69747;
+    padding: 1rem 0 1rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+
+#sugestao .sistema .texto .destaque {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#sugestao .sistema .texto .linha-destaque {
+    border-bottom: 2.5px solid #f69747;
+}
+
+#sugestao .sistema .texto .ajuda {
+
+    color: #326c87;
+    margin: 0 0 0 0;
+    padding: 1rem 0 1rem 0;
+    text-align: right;
+
+}
+
+#sugestao .sistema .texto .auxiliar {
+
+    color: #326c87;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: "Lato", sans-serif;
+
+}
+
+#sugestao .sistema .texto .monitor {
+    padding: 0.38rem 0 0 0;
+}
+
+#sugestao .sistema .texto .insuflador {
+    padding: 2.2rem 0 0 0;
+}
+
+#sugestao .sistema .texto .camera {
+    padding: 0.3rem 0 0 0;
+}
+
+#sugestao .sistema .texto .luz {
+    padding: 0.4rem 0 0 0;
+}
+
+#sugestao .sistema .texto .gravador {
+    padding: 0.5rem 0 0 0;
+}
+
+#sugestao .sistema .texto .acessorios {
+
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 2rem 0 0 0;
+    text-transform: uppercase;
+
+}
+
+#sugestao .oculta {
+    display: none;
+}
+
+#sugestao .imagem-auxiliar-posicao-1 {
+
+  z-index: 1;
+  max-width: 540px; 
+  position: absolute;
+
+}
+
+#sugestao .imagem-auxiliar-posicao-2 {
+
+  text-align: center;
+  z-index: 2; 
+  max-width: 540px;
+  position: absolute;
+
+}
+
+#sugestao .imagem-auxiliar-posicao-3 {
+
+    text-align: center;
+    z-index: 3;
+    width: 540px; 
+    max-width: 540px;
+    position: absolute;
+
+}
+
+#sugestao .imagem-auxiliar-posicao-4 {
+
+    text-align: center;
+    z-index: 3; 
+    width: 540px;
+    max-width: 540px;
+    position: absolute;
+    top: 232px;
+
+}
+
+#sugestao .imagem-auxiliar-posicao-5 {
+    text-align: center;
+    z-index: 3;
+    width: 540px; 
+    max-width: 540px;
+    position: absolute;
+    top: 276px;
+}
+
+#sugestao .imagem-auxiliar-posicao-6 {
+    text-align: center;
+    z-index: 3;
+    width: 540px;
+    max-width: 540px;
+    position: absolute;
+    top: 334px;
+}
+
+#sugestao .imagem-auxiliar-posicao-7 {
+  text-align: center;
+  z-index: 3; 
+  width: 540px;
+  max-width: 540px;
+  position: absolute;
+  top: 400px;
+}
+
+#sugestao .texto-auxiliar-posicao-1 {
+    z-index:4; 
+    max-width: 650px; 
+    position: absolute;
+    top: 0px;
+}
+
+#sugestao .texto-auxiliar-posicao-2 {
+    z-Index: 4;
+    max-width: 650px;
+    position: absolute;
+    top: 40px;
+}
+
+#sugestao .texto-auxiliar-posicao-3 {
+    z-index:2;
+    max-width: 650px; 
+    position: absolute;
+    top: 100px;
+}
+
+#sugestao .texto-auxiliar-posicao-4 {
+    z-index:2; 
+    max-width: 650px; 
+    position: absolute; 
+    top: 160px;;
+}
+
+#sugestao .texto-auxiliar-posicao-5 {
+
+   z-index:2;
+   max-width: 650px;
+   position: absolute;
+   top: 252px;
+
+}
+
+#sugestao .texto-auxiliar-posicao-6 {
+    z-index: 2;
+    max-width: 650px; 
+    position: absolute;
+    top: 320px;
+}
+
+#sugestao .texto-auxiliar-posicao-7 {
+     z-index: 2;
+     max-width: 650px;
+     position: absolute;
+     top: 380px;
+}
+
+#sugestao .texto-auxiliar-posicao-8 {
+    z-index: 2;
+    max-width: 650px;
+    position: absolute;
+    top: 480px;
+}
+
+#sugestao .tamanho-maximo {
+    max-width: 540px;
+}
+
+@media (max-width: 575.98px) { 
+
+    #sugestao .tamanho-maximo {
+        max-width: 425px;
+    }
+
+    #sugestao .tamanho-maximo.logo-fundo {
+        max-width: 425px;
+    }
+
+    #sugestao .tamanho-maximo.monitor {
+        max-width: 255px;
+        max-height: 162px;
+    }
+
+    #sugestao .tamanho-maximo.camera {
+        max-width: 118px;
+    }
+
+     #sugestao .imagem-auxiliar-posicao-1 {
+
+        z-index: 1;
+        max-width: 425px; 
+        position: absolute;
+        top: 50px;
+      }
+      
+      #sugestao .imagem-auxiliar-posicao-2 {
+      
+        text-align: center;
+        z-index: 2; 
+        max-width: 425px;
+        position: absolute;
+        right: -80px;
+        top: 80px;
+      
+      }
+      
+      #sugestao .imagem-auxiliar-posicao-3 {
+      
+          text-align: center;
+          z-index: 3;
+        /*  width: 540px; */
+          max-width: 425px;
+          position: absolute;
+          top: 90px;
+          right: -80px;
+      
+      }
+      
+      #sugestao .imagem-auxiliar-posicao-4 {
+      
+          text-align: center;
+          z-index: 3; 
+         /* width: 540px; */
+          max-width: 425px;
+          position: absolute;
+          top: 252px;
+          right: -82px;
+      
+      }
+      
+      #sugestao .imagem-auxiliar-posicao-5 {
+          text-align: center;
+          z-index: 3;
+         /* width: 540px; */
+          max-width: 425px;
+          position: absolute;
+          top: 294px;
+          right: -82px;
+      }
+      
+      #sugestao .imagem-auxiliar-posicao-6 {
+          text-align: center;
+          z-index: 3;
+        /*  width: 540px; */
+          max-width: 425px;
+          position: absolute;
+          top: 334px;
+          right: -82px;
+      }
+      
+      #sugestao .imagem-auxiliar-posicao-7 {
+        text-align: center;
+        z-index: 3; 
+       /* width: 540px; */
+        max-width: 425px;
+        position: absolute;
+        top: 385px;
+        right: -82px;
+      }
+      
+      #sugestao .texto-auxiliar-posicao-1 {
+          z-index:4; 
+          max-width: 650px; 
+          position: absolute;
+          top: -60px;
+          right: 147px;
+          width: 254px;
+      }
+      
+      #sugestao .texto-auxiliar-posicao-2 {
+          z-Index: 4;
+          max-width: 650px;
+          position: absolute;
+          top: -15px;
+          right: 0;
+          width: 400px;
+      }
+      
+      #sugestao .texto-auxiliar-posicao-3 {
+          z-index:2;
+          max-width: 200px; 
+          position: absolute;
+          top: 100px;
+          width: 100%;
+          text-align: right;
+      }
+      
+      #sugestao .texto-auxiliar-posicao-4 {
+          z-index:2; 
+          max-width: 200px; 
+          position: absolute; 
+          top: 160px;
+          width: 100%;
+          text-align: right;
+      }
+      
+      #sugestao .texto-auxiliar-posicao-5 {
+      
+         z-index:2;
+         max-width: 200px;
+         position: absolute;
+         top: 252px;
+         width: 100%;
+         text-align: right;
+      
+      }
+      
+      #sugestao .texto-auxiliar-posicao-6 {
+          z-index: 2;
+          max-width: 200px; 
+          position: absolute;
+          top: 320px;
+          width: 100%;
+          text-align: right;
+      }
+      
+      #sugestao .texto-auxiliar-posicao-7 {
+           z-index: 2;
+           max-width: 200px;
+           position: absolute;
+           top: 380px;
+           width: 100%;
+           text-align: right;
+      }
+      
+      #sugestao .texto-auxiliar-posicao-8 {
+          z-index: 2;
+          max-width: 200px;
+          position: absolute;
+          top: 480px;
+      }
+
+
+      #sugestao .sistema .texto .destaque {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+      #sugestao .sistema .texto .auxiliar {
+        font-size: 0.9rem;
+      }
+
+      #sugestao .sistema .texto .ajuda {
+
+        text-align: left;
+
+      }
+
+ }
+

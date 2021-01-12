@@ -1,0 +1,5 @@
+<header class="cabecalho"></header>
+<section class="banner"></section>
+<main class="conteudo"></main>
+<section class="auxiliar"></section>
+<footer class="rodape"></rodape>
