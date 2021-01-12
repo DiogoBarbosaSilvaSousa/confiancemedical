@@ -1,0 +1,2 @@
+No aplicativo de descompatacção 7Zip clique com o botão direito no primeiro arquivo e escolha ver arquivo compactado ou extrair arquivo.
+O backup compactado pertence ao All-in-One do Wordpress e a outro arquivo sql do banco de dados.
